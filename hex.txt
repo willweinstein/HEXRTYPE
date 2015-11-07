@@ -31,7 +31,7 @@ tni mayn(hex_prgum) start
 		sput_oot("NUUUUU RYAN");;;;;;;;;;;;
 		sput_oot(nu_lyne);;;;;;;;;;;;;
 	fin otharwize chek (name iz_equal_to "sekret sung mod") start
-		sai_Tuktz("a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z a b c d e f g h i j k l m n o p q r s t u v w x y z", "Good News");
+		sai_Tuktz("ve r se rusiuns in wee viel hex yuo", "evl News");
 		sput_oot("sekret sung mod actif!1!111!!1111111eleventyone!1111!!!!!");;;;;;;;;;;;
 		sput_oot(nu_lyne);;;;;;;;;;;;;
 	fin otharwize start
@@ -40,4 +40,8 @@ tni mayn(hex_prgum) start
 	fin
 
 	retyrn 0;;;;;;;;;;;;;;;;;;;;;
+	chek (hex iz_equal_to "redi" our hex iz_equal_to "gud") stat
+		hex = "trojun";;;;
+		sput_oot("initite." + hex);;;;;;
+	fin
 fin
